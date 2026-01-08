@@ -6,7 +6,7 @@ define('DB_PASS', '');
 define('DB_NAME', 'tankmarine');
 
 // Site ayarları
-define('SITE_URL', 'http://localhost/tankmarine');
+define('SITE_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/tankmarine');
 define('UPLOAD_PATH', __DIR__ . '/uploads/');
 define('UPLOAD_URL', SITE_URL . '/uploads/');
 
@@ -152,4 +152,7 @@ function trToEn($text) {
     $en = array('s','s','i','i','i','g','g','u','u','o','o','c','c');
     return str_replace($tr, $en, $text);
 }
+
+
+
 ?>

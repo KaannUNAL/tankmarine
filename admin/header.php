@@ -555,6 +555,10 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
             <a href="contact-fields.php" class="menu-item <?php echo $current_page == 'contact-fields' ? 'active' : ''; ?>">
                 <i class="fas fa-wpforms"></i>
                 <span>İletişim Formu</span>
+                            <a href="users.php" class="menu-item <?php echo $current_page == 'admin_users   ' ? 'active' : ''; ?>">
+                <i class="fas fa-users"></i>
+                <span>Kullanıcı Yönetimi</span>
+            </a>
             </a>
         </nav>
     </div>

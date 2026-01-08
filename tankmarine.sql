@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: 127.0.0.1
--- Üretim Zamanı: 08 Oca 2026, 09:39:16
+-- Üretim Zamanı: 08 Oca 2026, 14:43:40
 -- Sunucu sürümü: 10.4.32-MariaDB
 -- PHP Sürümü: 8.2.12
 
@@ -70,7 +70,7 @@ CREATE TABLE `admin_users` (
 --
 
 INSERT INTO `admin_users` (`id`, `username`, `password`, `email`, `full_name`, `role`, `active`, `last_login`, `created_at`, `updated_at`) VALUES
-(1, 'admin', '$2y$10$xhF9UNjk6/dtqRfyrcvYGOxGH1AtIviAVTwg5bw3KevJopRDw.L.K', 'admin@tankmarine.com.tr', 'Admin User', 'admin', 1, '2026-01-08 06:46:34', '2026-01-08 06:31:25', '2026-01-08 06:46:34');
+(1, 'Kaan ÜNAL', '$2y$10$tY7ahrYTtCpTXTPRh5O6rueJkuyuNrTcVwHAcVfHZ2OgPz2vKN5za', 'admin@tankmarine.com.tr', 'Kaan ÜNAL', 'admin', 1, '2026-01-08 06:46:34', '2026-01-08 06:31:25', '2026-01-08 13:29:05');
 
 -- --------------------------------------------------------
 
@@ -326,8 +326,8 @@ CREATE TABLE `news` (
 --
 
 INSERT INTO `news` (`id`, `title`, `slug`, `summary`, `content`, `image`, `views`, `active`, `created_at`, `updated_at`) VALUES
-(1, 'Dokuz Eylül University 2024 Career Days', 'dokuz-eylul-university-2024-career-days', '.', 'As Tankmarine Ship Management, we are happy to participate in Dokuz Eylül University 2024 Career Days. Thank you to all participants.', 'news/695f5bd43f971_1767857108.jpeg', 3, 1, '2026-01-08 07:25:08', '2026-01-08 08:17:42'),
-(2, 'Karadeniz Technical University And Ordu University 2024 Career Days', 'karadeniz-technical-university-and-ordu-university-2024-career-days', '.', 'As Tankmarine Ship Management, we are delighted to have participated in the Career Days events organized by Ordu University DUIM and Karadeniz Technical University DUIM last week.These events provided an excellent platform to engage with bright and ambitious students, exchange ideas with industry professionals, and explore new opportunities for collaboration. We were inspired by the energy, curiosity, and passion displayed by all participants.We are pleased to share that our Operations Manager, Capt. Orhan Kasap, actively participated in these events on behalf of our company.We extend our sincere gratitude to the universities and everyone involved in organizing these outstanding events. We look forward to building stronger connections and contributing to the professional growth of future talent.', 'news/695f5c387352c_1767857208.jpeg', 0, 1, '2026-01-08 07:26:48', '2026-01-08 07:26:48');
+(1, 'Dokuz Eylül University 2024 Career Days', 'dokuz-eylul-university-2024-career-days', '.', 'As Tankmarine Ship Management, we are happy to participate in Dokuz Eylül University 2024 Career Days. Thank you to all participants.', 'news/695f5bd43f971_1767857108.jpeg', 4, 1, '2026-01-08 07:25:08', '2026-01-08 12:07:40'),
+(2, 'Karadeniz Technical University And Ordu University 2024 Career Days', 'karadeniz-technical-university-and-ordu-university-2024-career-days', '.', 'As Tankmarine Ship Management, we are delighted to have participated in the Career Days events organized by Ordu University DUIM and Karadeniz Technical University DUIM last week.These events provided an excellent platform to engage with bright and ambitious students, exchange ideas with industry professionals, and explore new opportunities for collaboration. We were inspired by the energy, curiosity, and passion displayed by all participants.We are pleased to share that our Operations Manager, Capt. Orhan Kasap, actively participated in these events on behalf of our company.We extend our sincere gratitude to the universities and everyone involved in organizing these outstanding events. We look forward to building stronger connections and contributing to the professional growth of future talent.', 'news/695f5c387352c_1767857208.jpeg', 2, 1, '2026-01-08 07:26:48', '2026-01-08 12:51:33');
 
 -- --------------------------------------------------------
 
